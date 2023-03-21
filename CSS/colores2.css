@@ -1,0 +1,45 @@
+.box-colors{
+    display: flex;
+    flex-direction: row;
+}
+.box-style{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.span{
+    color: wheat;
+    font-size: 1.6em;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box-1{
+    background-color: lightpink;
+}
+.box-2{
+    background-color: darksalmon;
+}
+.box-3{
+    background-color: chartreuse;
+}
+.box-4{
+    background-color:rgb(66, 171, 216);
+}
+.box-5{
+    background-color:rgb(94, 23, 161);
+}
+.box-6{
+    background-color:rgb(65, 179, 107);
+}
+.box-7{
+    background-color: #2617a4;
+}
+.box-8{
+    background-color:#a133cd;
+}
+.box-9{
+    background-color:#28dcdc;
+}
