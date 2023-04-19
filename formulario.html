@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="css/formulario.css">
 </head>
 <body>
-    <h1>yo soy el titulo</h1>
-    <h2>yo soy el subtitulo</h2>
+<div class="form-title">
+    <h1>Avianca - Tiquetes</h1>
+</div>
     <form>
     <label >Ingrese el numero de documento</label>
     <input type="text">
@@ -25,6 +26,12 @@
     <input type="radio" name="clase vuelo">Primera Clase<br>
     <input type="radio" name="clase vuelo">business Class<br>
     <input type="radio" name="clase vuelo">Clase Turista<br>
+    <label">por favor, seleccione el dia para visualizar los vuelos disponibles</label><br>
+    <input type="checkbox" name="disponibilidad" value="2023-04-19">Miercoles, 19 de abril del 2023<br>
+    <input type="checkbox" name="disponibilidad" value="2023-04-20">Jueves, 20 de abril del 2023<br>
+    <input type="checkbox" name="disponibilidad" value="2023-04-21">Viernes, 21 de abril del 2023<br>
+    <input type="checkbox" name="disponibilidad" value="2023-04-22">Sabado, 22 de abril del 2023<br>
+<input type="submit" value="Enviar">
 </form>
 </body>
 </html>
