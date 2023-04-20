@@ -8,30 +8,35 @@
     <link rel="stylesheet" href="css/formulario.css">
 </head>
 <body>
-<div class="form-title">
-    <h1>Avianca - Tiquetes</h1>
-</div>
-    <form>
-    <label >Ingrese el numero de documento</label>
-    <input type="text">
-
-    <label>Ingrese el tipo de documento</label>
-    <select name="tipo de documento">
-        <option value="cc">Cedula De Ciudadania</option>
-        <option value="ti">Tarjeta De Identidad</option>
-        <option value="ti">Registro Civil</option>
-        <option value="ti">Cedula De Extranjeria</option>
-    </select>
-    <label>por favor, seleccione la clase</label>
-    <input type="radio" name="clase vuelo">Primera Clase<br>
-    <input type="radio" name="clase vuelo">business Class<br>
-    <input type="radio" name="clase vuelo">Clase Turista<br>
-    <label">por favor, seleccione el dia para visualizar los vuelos disponibles</label><br>
-    <input type="checkbox" name="disponibilidad" value="2023-04-19">Miercoles, 19 de abril del 2023<br>
-    <input type="checkbox" name="disponibilidad" value="2023-04-20">Jueves, 20 de abril del 2023<br>
-    <input type="checkbox" name="disponibilidad" value="2023-04-21">Viernes, 21 de abril del 2023<br>
-    <input type="checkbox" name="disponibilidad" value="2023-04-22">Sabado, 22 de abril del 2023<br>
-<input type="submit" value="Enviar">
-</form>
+    <div class="main-box">
+        <div class="content-box">
+            <div class="form-title">
+                <span>Avianca - Tiquetes</span>
+            </div>
+            <div class="form-box">
+                <form>
+                    <label>Ingrese el número de documento</label>
+                    <input type="text">
+                    <label>Ingrese el tipo de documento</label>
+                    <select name="tipo-documento">
+                        <option value="cc">Cedula de Ciudadanía</option>
+                        <option value="ti">Tarjeta de Identidad</option>
+                        <option value="ti">Registro Civil</option>
+                        <option value="ti">Cedula de Extranjería</option>
+                    </select>
+                    <label>Por favor, seleccione la clase</label>
+                    <input type="radio" name="clase-vuelo">Primera clase<br>
+                    <input type="radio" name="clase-vuelo">Business Class<br>
+                    <input type="radio" name="clase-vuelo">Clase Turista<br>
+                    <label>Por favor, Seleccione el día para visualizar los vuelos disponibles</label>
+                    <input type="checkbox" name="disponibilidad" value="2023-04-19">Miercoles, 19 de Abril del 2023<br>
+                    <input type="checkbox" name="disponibilidad" value="2023-04-20">Jueves, 20 de Abril del 2023<br>
+                    <input type="checkbox" name="disponibilidad" value="2023-04-21">Viernes, 21 de Abril del 2023<br>
+                    <input type="checkbox" name="disponibilidad" value="2023-04-22">Sabado, 22 de Abril del 2023<br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
